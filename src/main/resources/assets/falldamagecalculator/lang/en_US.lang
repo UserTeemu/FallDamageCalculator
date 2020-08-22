@@ -1,0 +1,9 @@
+falldamagecalc.title=Fall Damage Calculator
+falldamagecalc.calculate=Calculate
+falldamagecalc.damageTaken=Damage taken: %s
+falldamagecalc.fromY=Jumping from Y
+falldamagecalc.toY=Down to Y
+falldamagecalc.jumpingBeforeFall.true=Jumping up first
+falldamagecalc.jumpingBeforeFall.false=Not jumping up first
+falldamagecalc.raytraceFail=Failed to raytrace block height
+falldamagecalc.calculationFail=Failed to calculate fall damage! See logs for more details.
