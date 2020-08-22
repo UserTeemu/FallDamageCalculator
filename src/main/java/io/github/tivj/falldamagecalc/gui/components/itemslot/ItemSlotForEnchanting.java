@@ -25,7 +25,8 @@ public class ItemSlotForEnchanting extends ItemSlot {
 
     @Override
     protected void onClick(int mouseX, int mouseY, int mouseButton) {
-        owner.selectedItem.setItem(itemStack == null ? null : itemStack.getItem());
+        this.owner.itemSlots.get(0).itemStack = itemStack == null ? null : itemStack.copy();
+        owner.selectedItem = this.owner.itemSlots.get(0).itemStack;
         super.onClick(mouseX, mouseY, mouseButton);
     }
 }

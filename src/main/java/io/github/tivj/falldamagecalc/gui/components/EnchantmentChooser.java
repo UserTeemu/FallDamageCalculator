@@ -179,7 +179,7 @@ public class EnchantmentChooser extends Gui {
                     this.selectedItem.getTagCompound().removeTag("ench");
                 }
                 itemSlot.itemStack = this.selectedItem.copy();
-            }
+            } else itemSlot.itemStack = null;
         }
     }
 
