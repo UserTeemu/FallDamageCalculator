@@ -1,6 +1,6 @@
-package io.github.tivj.falldamagecalc.gui.components.itemslot;
+package dev.userteemu.falldamagecalc.gui.components.itemslot;
 
-import io.github.tivj.falldamagecalc.utils.ArmorType;
+import dev.userteemu.falldamagecalc.utils.ArmorType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.gui.Gui;

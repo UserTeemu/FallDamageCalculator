@@ -1,7 +1,7 @@
-package io.github.tivj.falldamagecalc.gui.components.itemslot;
+package dev.userteemu.falldamagecalc.gui.components.itemslot;
 
-import io.github.tivj.falldamagecalc.gui.components.EnchantmentChooser;
-import io.github.tivj.falldamagecalc.utils.ArmorType;
+import dev.userteemu.falldamagecalc.utils.ArmorType;
+import dev.userteemu.falldamagecalc.gui.components.EnchantmentChooser;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 

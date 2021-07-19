@@ -1,6 +1,6 @@
-package io.github.tivj.falldamagecalc.calculator;
+package dev.userteemu.falldamagecalc.calculator;
 
-import io.github.tivj.falldamagecalc.gui.components.PotionEffectDisplay;
+import dev.userteemu.falldamagecalc.gui.components.PotionEffectDisplay;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;

@@ -1,4 +1,4 @@
-package io.github.tivj.falldamagecalc.gui.components.textinput;
+package dev.userteemu.falldamagecalc.gui.components.textinput;
 
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiTextField;

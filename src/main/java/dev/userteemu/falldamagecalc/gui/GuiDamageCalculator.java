@@ -1,12 +1,14 @@
-package io.github.tivj.falldamagecalc.gui;
+package dev.userteemu.falldamagecalc.gui;
 
-import io.github.tivj.falldamagecalc.FallDamageCalculatorMod;
-import io.github.tivj.falldamagecalc.calculator.FallDamageCalculator;
+import dev.userteemu.falldamagecalc.FallDamageCalculatorMod;
+import dev.userteemu.falldamagecalc.calculator.FallDamageCalculator;
+import dev.userteemu.falldamagecalc.gui.components.EnchantmentChooser;
+import dev.userteemu.falldamagecalc.gui.components.PotionEffectDisplay;
+import dev.userteemu.falldamagecalc.gui.components.itemslot.ItemSlot;
+import dev.userteemu.falldamagecalc.gui.components.itemslot.ItemSlotForMainGui;
+import dev.userteemu.falldamagecalc.gui.components.textinput.BlockHeightField;
+import dev.userteemu.falldamagecalc.utils.ArmorType;
 import io.github.tivj.falldamagecalc.gui.components.*;
-import io.github.tivj.falldamagecalc.gui.components.itemslot.ItemSlot;
-import io.github.tivj.falldamagecalc.gui.components.itemslot.ItemSlotForMainGui;
-import io.github.tivj.falldamagecalc.gui.components.textinput.BlockHeightField;
-import io.github.tivj.falldamagecalc.utils.ArmorType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;

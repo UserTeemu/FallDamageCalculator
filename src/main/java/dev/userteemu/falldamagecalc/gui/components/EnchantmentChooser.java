@@ -1,12 +1,13 @@
-package io.github.tivj.falldamagecalc.gui.components;
+package dev.userteemu.falldamagecalc.gui.components;
 
-import io.github.tivj.falldamagecalc.FallDamageCalculatorMod;
-import io.github.tivj.falldamagecalc.gui.GuiDamageCalculator;
-import io.github.tivj.falldamagecalc.gui.components.itemslot.ItemDestroySlot;
-import io.github.tivj.falldamagecalc.gui.components.itemslot.ItemSlot;
-import io.github.tivj.falldamagecalc.gui.components.itemslot.ItemSlotForEnchanting;
-import io.github.tivj.falldamagecalc.gui.components.textinput.ShortOnlyTextField;
-import io.github.tivj.falldamagecalc.utils.ArmorType;
+import dev.userteemu.falldamagecalc.FallDamageCalculatorMod;
+import dev.userteemu.falldamagecalc.gui.components.itemslot.ItemDestroySlot;
+import dev.userteemu.falldamagecalc.gui.components.itemslot.ItemSlot;
+import dev.userteemu.falldamagecalc.gui.components.itemslot.ItemSlotForEnchanting;
+import dev.userteemu.falldamagecalc.gui.components.textinput.NumberOnlyTextField;
+import dev.userteemu.falldamagecalc.gui.components.textinput.ShortOnlyTextField;
+import dev.userteemu.falldamagecalc.utils.ArmorType;
+import dev.userteemu.falldamagecalc.gui.GuiDamageCalculator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.renderer.GlStateManager;
@@ -20,8 +21,6 @@ import net.minecraft.nbt.NBTTagList;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static io.github.tivj.falldamagecalc.gui.components.textinput.NumberOnlyTextField.numberTextFieldWidth;
 
 public class EnchantmentChooser extends Gui {
     private int startX;
@@ -77,7 +76,7 @@ public class EnchantmentChooser extends Gui {
         int deltaY = ((this.endY - margin) - (this.startY + margin) - 20) / 4;
 
         for (int i = 0; i < 5; i++) {
-            ShortOnlyTextField textField = new ShortOnlyTextField(20 + i, String.valueOf(EnchantmentHelper.getEnchantmentLevel(i, this.selectedItem)), mc.fontRendererObj, endX - numberTextFieldWidth - 8, lastY, numberTextFieldWidth, 20);
+            ShortOnlyTextField textField = new ShortOnlyTextField(20 + i, String.valueOf(EnchantmentHelper.getEnchantmentLevel(i, this.selectedItem)), mc.fontRendererObj, endX - NumberOnlyTextField.numberTextFieldWidth - 8, lastY, NumberOnlyTextField.numberTextFieldWidth, 20);
             this.enchantmentFields.add(textField);
             lastY += deltaY;
         }
@@ -92,7 +91,7 @@ public class EnchantmentChooser extends Gui {
             if (length > width) width = length;
         }
 
-        width += numberTextFieldWidth + 8 + 8 + 16 + (((this.endY - 8) - (this.startY + 8) - slotSize) / 3) * 2 + slotSize;
+        width += NumberOnlyTextField.numberTextFieldWidth + 8 + 8 + 16 + (((this.endY - 8) - (this.startY + 8) - slotSize) / 3) * 2 + slotSize;
         if (width > this.endX - this.startX) this.endX = Math.min(startX + width, this.owner.width);
     }
 

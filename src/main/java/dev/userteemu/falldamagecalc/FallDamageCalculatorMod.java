@@ -1,6 +1,6 @@
-package io.github.tivj.falldamagecalc;
+package dev.userteemu.falldamagecalc;
 
-import io.github.tivj.falldamagecalc.gui.GuiDamageCalculator;
+import dev.userteemu.falldamagecalc.gui.GuiDamageCalculator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.GlStateManager;

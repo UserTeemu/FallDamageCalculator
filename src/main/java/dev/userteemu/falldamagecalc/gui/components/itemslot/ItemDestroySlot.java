@@ -1,6 +1,6 @@
-package io.github.tivj.falldamagecalc.gui.components.itemslot;
+package dev.userteemu.falldamagecalc.gui.components.itemslot;
 
-import io.github.tivj.falldamagecalc.gui.components.EnchantmentChooser;
+import dev.userteemu.falldamagecalc.gui.components.EnchantmentChooser;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.WorldRenderer;

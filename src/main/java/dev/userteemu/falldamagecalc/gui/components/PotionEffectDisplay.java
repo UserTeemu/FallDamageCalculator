@@ -1,6 +1,6 @@
-package io.github.tivj.falldamagecalc.gui.components;
+package dev.userteemu.falldamagecalc.gui.components;
 
-import io.github.tivj.falldamagecalc.gui.components.textinput.NumberOnlyTextField;
+import dev.userteemu.falldamagecalc.gui.components.textinput.NumberOnlyTextField;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.gui.FontRenderer;

@@ -1,4 +1,4 @@
-package io.github.tivj.falldamagecalc.utils;
+package dev.userteemu.falldamagecalc.utils;
 
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
